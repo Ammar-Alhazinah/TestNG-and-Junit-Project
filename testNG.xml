@@ -1,0 +1,104 @@
+<suite name="Selenium Suite" parraral="test">
+
+    <test name="Test triangle">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="0"/>
+        <parameter name="expectedResult" value="9"/>
+        <parameter name="shapeName" value="triangle"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test square">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="0"/>
+        <parameter name="expectedResult" value="9"/>
+        <parameter name="shapeName" value="square"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test rectangle">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="2"/>
+        <parameter name="thirdParameter" value="8"/>
+        <parameter name="expectedResult" value="6"/>
+        <parameter name="shapeName" value="rectangle"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test parallelogram">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="0"/>
+        <parameter name="expectedResult" value="18"/>
+        <parameter name="shapeName" value="parallelogram"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test trapezoid">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="8"/>
+        <parameter name="expectedResult" value="36"/>
+        <parameter name="shapeName" value="trapezoid"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test circle">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="0"/>
+        <parameter name="expectedResult" value="26"/>
+        <parameter name="shapeName" value="circle"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test ellipse">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="10"/>
+        <parameter name="expectedResult" value="24"/>
+        <parameter name="shapeName" value="ellipse"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test sector">
+        <parameter name="firstParameter" value="3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="0"/>
+        <parameter name="expectedResult" value="27"/>
+        <parameter name="shapeName" value="sector"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+    <test name="Test triangle version 2">
+        <parameter name="firstParameter" value="-3"/>
+        <parameter name="secondParameter" value="6"/>
+        <parameter name="thirdParameter" value="10"/>
+        <parameter name="expectedResult" value="9"/>
+        <parameter name="shapeName" value="triangle"/>
+
+        <classes>
+            <class name="TestWithTestNGParameter.ParameterTestClass"/>
+        </classes>
+    </test>
+
+
+</suite>

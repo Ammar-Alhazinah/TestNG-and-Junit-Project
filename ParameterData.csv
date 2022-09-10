@@ -1,0 +1,9 @@
+﻿FirstParameter,SecondParameter,ThirdParameter,AreaResult,ShapeName
+3,6,,9,triangle
+3,,,9,square
+3,6,,18,rectangle
+3,6,,18,parallelogram
+3,6,8,13,trapezoid
+3,,,26,circle
+3,6,,22,ellipse
+3,15,,72,sector
